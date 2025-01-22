@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+}
+
+.parent {
+    padding: 5em;
+    width: 80%;
+    background-color: aqua;
+    margin: 0 auto;
+}

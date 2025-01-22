@@ -12,5 +12,8 @@ body {
 
 .child {
     background-color: #38CFD9;
-    height: 250px;
+    /* height: 250px; In order to avoid the text going out, its better to not set the height */
+    width: 50%; /* This always depends on the size of its parent*/
+    /* CSS is always responsive, so if anything is  not working well, we might have added something */
+    padding: 5em; /* 1em = 16px, 5 em = 80px*/
 }
