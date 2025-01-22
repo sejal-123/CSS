@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+.parent {
+    background-color: #23424A;
+    padding: 50px;
+    margin: 0 auto;
+    /* width: 900px; */
+    width: 80%; /* this will allow itself to adjust when we are changing the size of the browser */
+}
+
+.child {
+    background-color: #38CFD9;
+    height: 250px;
+}
