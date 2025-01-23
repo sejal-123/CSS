@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+.div1 {
+    background-color: aqua;
+    /* min takes the minimum of the 2 values provided depending on the viewport size */
+    width: min(200px, 30%);
+}
+
+.div2 {
+    background-color: black;
+    color: wheat;
+    /* max takes the maximum of the 2 values provided depending on the viewport size */
+    width: max(600px, 70%);
+}
+
+.div3 {
+    background-color: blueviolet;
+    color: white;
+    /* Sets a value between a minimum and maximum, with a preferred value in between  */
+    width: clamp(50%, 700px, 80%);
+}
+
