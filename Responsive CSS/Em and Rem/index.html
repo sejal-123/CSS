@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <title>Em and rem difference</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="parent-em"> EM
+        <div class="child-em">
+            In em unit of css, the unit is relative to the font size of its parent elements. It scales based on current elements font's size affecting the size of nested elements according to their parents size.
+            Sometimes nested elements might get cumulative sizes.
+        </div>
+    </div>
+
+    <div class="parent-rem"> REM
+        <div class="child-rem">
+            In rem unit of css, the unit is relative to the font size of its root (html) element. It provides consistent scaling accross entire document ensuring elements are sized relative to a single base unit.
+        </div>
+    </div>
+</body>
+</html>
