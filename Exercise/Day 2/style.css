@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: #23424A;
+    color: white;
+    padding: 50px 50px 150px 50px;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 750px; /* So that we don't end up showing more characters in a single line*/
+}
+
+.div1 {
+    width: 50%;
+}
+
+.container-new {
+    margin: 0 auto;
+    padding: 50px 50px 150px 50px;
+    width: 80%;
+    max-width: 800px;
+}
+
+
