@@ -6,6 +6,15 @@
     <title>Responsive images</title>
 </head>
 <body>
-    
+    <!-- Background-size of image if kept as contain, it takes it original size and will not stretch at any point of time, when we reduce size of window, it maintains its aspect ratio -->
+    <!-- Background-size of image if kept as 100% 100%, it will stretch to cover the entire div area, distorting the aspect ratio and stretching the image -->
+    <!-- Background-size of image if kept as cover, it will stretch to cover the entire div area, keeping the aspect ratio but stretching the image so the image might be clipped as it is zoomed -->
+
+    <picture> <!-- Here we can provide multiple images based on media property how we use in css -->
+        <!-- if we use max-device-width it takes the device width rather than browser width -->
+        <source srcset="./../images/img_smallflower.jpg" media="(max-width: 400px)">
+        <source srcset="./../images/big_flower.jpg">
+        <img alt="Flowers" style="max-width: 100%; height: auto;">
+    </picture>
 </body>
 </html>
