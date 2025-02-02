@@ -11,33 +11,40 @@
     <title>Project Template</title>
 </head>
 <body>
-    <nav>
-        <div class="navbar">
-            <ul class="left-nav">
-                <li>L O G O</li>
-            </ul>
-            <ul class="right-nav expanded">
+    <div class="header">
+        <nav>
+            <div class="navbar">
+                <ul class="left-nav">
+                    <li>L O G O</li>
+                </ul>
+                <ul class="right-nav expanded">
+                    <li>ABOUT</li>
+                    <li><i class="fa fa-user"></i> TEAM </li>
+                    <li><i class="fa fa-th"></i> WORK </li>
+                    <li><i class="fa fa-usd"></i> PRICING </li>
+                    <li><i class="fa fa-envelope"></i> CONTACT </li>
+                </ul>
+                <ul class="right-nav bars" >
+                    <li onclick="toggleSideBar()"><i class="fa fa-bars"></i></li>
+                </ul>
+            </div>   
+        </nav>
+        <div class="sidebar">
+            <ul>
+                <li>Close x</li>
                 <li>ABOUT</li>
-                <li><i class="fa fa-user"></i> TEAM </li>
-                <li><i class="fa fa-th"></i> WORK </li>
-                <li><i class="fa fa-usd"></i> PRICING </li>
-                <li><i class="fa fa-envelope"></i> CONTACT </li>
+                <li>TEAM</li>
+                <li>WORK</li>
+                <li>PRICING</li>
+                <li>CONTACT</li>
             </ul>
-            <ul class="right-nav bars" >
-                <li onclick="toggleSideBar()"><i class="fa fa-bars"></i></li>
-            </ul>
-        </div>   
-    </nav>
-    <div class="sidebar">
-        <ul>
-            <li>Close x</li>
-            <li>ABOUT</li>
-            <li>TEAM</li>
-            <li>WORK</li>
-            <li>PRICING</li>
-            <li>CONTACT</li>
-        </ul>
-    </div>  
+        </div>
+        <div class="image-center-text">
+            <h1 class="first-heading">Start something that matters</h1>
+            <p>Stop wasting valuable time with projects that just isn't you</p>
+            <button class="image-btn">Learn more and start today</button>
+        </div>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>

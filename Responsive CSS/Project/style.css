@@ -8,8 +8,8 @@
 }
 
 nav {
-    /* background-color: red; */
-    /* position: fixed; */
+    position: fixed;
+    width: 100%;
 }
 
 nav ul {
@@ -45,6 +45,7 @@ ul {
 .navbar {
     display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 
 .expanded {
@@ -73,6 +74,37 @@ ul {
     display: block;
 }
 
+.header {
+    background-size: cover;
+    background-image: url(./images/mac.jpg);
+    min-height: 100vh;
+    background-position: center;
+}
+
+.image-center-text {
+    position: absolute;
+    top: 30%;
+    color: white;
+    padding: 100px;
+}
+
+.image-center-text p {
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.image-btn {
+    background-color: white;
+    opacity: 0.5;
+    padding: 20px;
+    border: none;
+    font-size: 20px;
+}
+
+.first-heading {
+    margin-bottom: 40px;
+    font-size: 64px;
+}
 
 @media (min-width: 601px) {
     .expanded {
