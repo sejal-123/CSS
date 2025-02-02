@@ -29,13 +29,11 @@ nav ul li:hover {
 
 .left-nav {
     display: flex;
-    flex: 1;
     justify-content: start;
 }
 
 .right-nav {
     display: flex;
-    flex: 1;
     justify-content: end;
 }
 
@@ -46,4 +44,41 @@ ul {
 
 .navbar {
     display: flex;
+    justify-content: space-between;
+}
+
+.expanded {
+    display: none;
+}
+
+.btn-sidebar {
+    background: transparent;
+    border: none;
+    padding: 0;
+    display: flex;
+}
+
+.sidebar {
+    display: none;
+    background-color: black;
+    width: 200px;
+    height: 100%;
+    color: white;
+    position: fixed;
+    top: 0;
+}
+
+.sidebar ul li {
+    padding: 10px 12px;
+    display: block;
+}
+
+
+@media (min-width: 601px) {
+    .expanded {
+        display: flex;
+    }
+    .bars {
+        display:none;
+    }
 }
