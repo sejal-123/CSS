@@ -31,7 +31,7 @@
         </nav>
         <div class="sidebar">
             <ul>
-                <li>Close x</li>
+                <li onclick="toggleSideBar()">Close x</li>
                 <li>ABOUT</li>
                 <li>TEAM</li>
                 <li>WORK</li>
@@ -52,6 +52,37 @@
             <i class="fa fa-twitter"></i>
             <i class="fa fa-linkedin"></i>
         </div>
+    </div>
+    <div class="about" #about>
+        <h1>ABOUT THE COMPANY</h1>
+        <p class="about-subheading">Key features of our company</p>
+        <div class="about-items">
+            <div class="about-item">
+                <i class="about-icon fa fa-desktop"></i>
+                <p>Responsive</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid sunt nobis soluta? Soluta veritatis vel dolorum est corrupti, ipsum voluptatem exercitationem dolorem a iure et!</p>
+            </div>
+            <div class="about-item">
+                <i class="about-icon fa fa-heart"></i>
+                <p>Passion</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt dolores placeat repudiandae dolorem sequi dicta aut quidem itaque enim, ut facere expedita esse exercitationem autem.</p>
+            </div>
+            <div class="about-item">
+                <i class="about-icon fa fa-diamond"></i>
+                <p>Design</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum debitis numquam ex beatae provident. Eaque ratione hic molestias consectetur vel obcaecati maxime explicabo dolorum iusto.</p>
+            </div>
+            <div class="about-item">
+                <i class="about-icon fa fa-cog"></i>
+                <p>Support</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos ratione ea unde incidunt, quae eius provident illum veritatis molestiae non in maiores aspernatur inventore atque.</p>
+            </div>
+        </div>
+    </div>
+    <div class="design">
+        <h2 class="design-heading">We know design.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis culpa fuga unde repudiandae excepturi nemo expedita dicta? Similique, vero beatae.</p>
+        <button class="design-button"><i class="fa fa-th"></i>We Our Works</button>
     </div>
     <script src="index.js"></script>
 </body>
