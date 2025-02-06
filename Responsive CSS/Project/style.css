@@ -143,7 +143,7 @@ ul {
 }
 
 .team {
-    margin: 120px 40px;
+    padding: 120px 40px;
     text-align: center;
 }
 
@@ -156,19 +156,19 @@ ul {
 
 .card h4 {
     font-weight: 500;
-    margin: 20px 0;
+    margin: 20px 4px;
     font-size: 30px;
     text-align: left;
 }
 
 .card h5 {
-    margin: 10px 0 20px;
+    margin: 10px 4px 20px;
     font-size: 20px;
     text-align: left;
 }
 
 .card p {
-    margin: 10px 0;
+    margin: 10px 4px;
     text-align: left;
 }
 
@@ -219,19 +219,17 @@ ul {
     .design-image {
         width: 50%;
     }
-    .team-subsections {
-        display: inline;
-    }
-    .team-subsections .card {
+    .team-subsections .outer-card {
         width: 50%;
+        float: left;
+        padding: 0 8px;
     }
 }
 
 @media (min-width: 993px) {
-    .team-subsections .card {
+    .team-subsections .outer-card {
         width: 25%;
-    }
-    .team-subsections {
-        display: inline;
+        float: left;
+        padding: 0 8px;
     }
 }
