@@ -120,11 +120,11 @@ ul {
     text-align: center;
 }
 
-.about h1 {
+.about h1, .team h1 {
     margin-bottom: 40px;
 }
 
-.about .about-subheading {
+.about-subheading, .team-subheading {
     margin-bottom: 50px;
 }
 
@@ -140,6 +140,36 @@ ul {
 .design {
     background-color: #f1f1f1;
     padding: 120px 40px;
+}
+
+.team {
+    margin: 120px 40px;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 15px 0;
+}
+
+.card h4 {
+    font-weight: 500;
+    margin: 20px 0;
+    font-size: 30px;
+    text-align: left;
+}
+
+.card h5 {
+    margin: 10px 0 20px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.card p {
+    margin: 10px 0;
+    text-align: left;
 }
 
 .design-heading {
@@ -188,5 +218,20 @@ ul {
     }
     .design-image {
         width: 50%;
+    }
+    .team-subsections {
+        display: inline;
+    }
+    .team-subsections .card {
+        width: 50%;
+    }
+}
+
+@media (min-width: 993px) {
+    .team-subsections .card {
+        width: 25%;
+    }
+    .team-subsections {
+        display: inline;
     }
 }
