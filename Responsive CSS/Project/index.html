@@ -18,11 +18,11 @@
                     <li>L O G O</li>
                 </ul>
                 <ul class="right-nav expanded">
-                    <li>ABOUT</li>
-                    <li><i class="fa fa-user"></i> TEAM </li>
-                    <li><i class="fa fa-th"></i> WORK </li>
-                    <li><i class="fa fa-usd"></i> PRICING </li>
-                    <li><i class="fa fa-envelope"></i> CONTACT </li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#team"><i class="fa fa-user"></i> TEAM </a></li>
+                    <li><a href="#work"><i class="fa fa-th"></i> WORK </a></li>
+                    <li><a href="#pricing"><i class="fa fa-usd"></i> PRICING </a></li>
+                    <li><a href="#contact"><i class="fa fa-envelope"></i> CONTACT </a></li>
                 </ul>
                 <ul class="right-nav bars" >
                     <li onclick="toggleSideBar()"><i class="fa fa-bars"></i></li>
@@ -32,8 +32,8 @@
         <div class="sidebar">
             <ul>
                 <li onclick="toggleSideBar()">Close x</li>
-                <li>ABOUT</li>
-                <li>TEAM</li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#team">TEAM</a></li>
                 <li>WORK</li>
                 <li>PRICING</li>
                 <li>CONTACT</li>
@@ -53,7 +53,7 @@
             <i class="fa fa-linkedin"></i>
         </div>
     </div>
-    <div class="about" #about>
+    <div class="about" id="about">
         <h1>ABOUT THE COMPANY</h1>
         <p class="about-subheading">Key features of our company</p>
         <div class="about-items">
@@ -89,7 +89,7 @@
             <img src="./images/phone_buildings.jpg" alt="Phone">
         </div>
     </div>
-    <div class="team">
+    <div class="team" id="team">
         <h1>THE TEAM</h1>
         <p class="team-subheading">The ones who runs this company</p>
         <div class="team-subsections">
@@ -125,6 +125,17 @@
                     <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="footer">
+        <button class="top-btn"><a href=""><i class="fa fa-arrow-up"></i> To the top</a></button>
+        <div class="image-icons">
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-snapchat"></i>
+            <i class="fa fa-pinterest"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
         </div>
     </div>
     <script src="index.js"></script>
